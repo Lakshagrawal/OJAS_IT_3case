@@ -1,0 +1,26 @@
+{
+  "name": "ojas-tech",
+  "version": "1.0.0",
+  "description": "Instagram ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js -e hbs,js,json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "1.20.2",
+    "cookie-parser": "1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "hbs": "4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "multer": "^1.4.5-lts.1",
+    "node": "^20.5.0",
+    "nodemon": "^3.1.0",
+    "parse-bytes": "^0.0.2"
+  }
+}
